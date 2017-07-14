@@ -9,12 +9,12 @@ source:
 requirements:
   build:
     - python
+    script: python setup.py install
   run:
     - python
-
-test:
-  imports:
-    - os
+  test:
+    imports:
+      - python
 about:
   home: https://github.com/carlosloslas/condaPakageTest
   license: MIT
