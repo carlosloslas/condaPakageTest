@@ -1,0 +1,21 @@
+package:
+  name: condaPackageTest
+  version: "0.1"
+
+source:
+  git_rev: v0.1
+  git_url: https://github.com/carlosloslas/condaPakageTest.git
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - os
+about:
+  home: https://github.com/carlosloslas/condaPakageTest
+  license: MIT
+  license_file: LICENSE
